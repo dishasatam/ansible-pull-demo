@@ -1,0 +1,10 @@
+---
+- name: Hello World Pull Model
+  hosts: localhost
+  connection: local
+  gather_facts: no
+
+  tasks:
+    - name: Print Hello World Message
+      debug:
+        msg: "Hello World from Pull Model"
